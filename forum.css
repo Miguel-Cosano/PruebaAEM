@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#header{
+  
+    width: 100%;
+}
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #ccc !important;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.nav-link{
+    color: #ccc !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    background: #dcdde1 !important;
+    color: #262626 !important;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
+}
+.mainForo{
+        min-height: 100%;
+        background-image: url('/img/fondoEstrella.jpg') ;
+        background-size:cover;
+        
+}
+.publicar{
+        width: 500px;
+        height: 43px;
+        
+        
+        position: absolute;
+        top: 131px;
+        left: 50px;
+        
+        overflow: hidden;
+}
+.botonPublicar{
+    width: 130px;
+    height: 43px;
+    background: rgba(248, 203, 138, 1);
+   
+    
+    border-radius: 10px;
+
+    font-size: 20px;
+  
+
+
+    color: rgb(0, 0, 0) !important;
+
+    
+}
+.botonFiltrar{
+    width: 200px;
+    height: 43px;
+    background: rgba(248, 203, 138, 1);
+
+
+    border-radius: 10px;
+
+    font-size: 20px;
+
+
+
+    color: rgb(0, 0, 0) !important;
+
+
+}
+.inputPublicar{
+    
+    background: rgba(196, 196, 196, 0.5);
+    color: #fff;
+    border-top-right-radius: 50px;
+    font-size:24px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    height: 100%;
+    width: 368px;
+
+      
+}
+
+.headerTema{
+        
+        height: 51px;
+        background-color: rgb(248, 203, 138, 1);
+        position: absolute;
+        top: 187px;
+        left: 50px;
+        right: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        overflow: hidden;
+        border-style:solid;
+        border-width: 0.01cm;
+}
+.v149_65 {
+    width: 56px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 11px;
+    left: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+    opacity: 1;
+
+}
+
+.cajaTemas{
+    
+    height: 704px;
+    background-color: rgba(39, 37, 104, 0.12);
+    
+    position: absolute;
+    top: 214px;
+    left: 50px;
+    right: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style:solid;
+    border-width: 0.001cm;
+    border-top: 0;
+    overflow: hidden;
+}
+.listadoTemas{
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    
+    
+    
+    
+    
+}
+.recuadro:hover{
+    border-style: solid;
+    border-width: 0.00001cm;
+    background-color: #7272a924;
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+.recuadro{
+    transition: 0.5s;
+}
+
+.tema{
+    border-width: 1px;
+    border-style: solid;
+    border-width: 0.07cm;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    color: #fff;
+    width: 100%;
+    
+    
+}
+.textoTema{
+    margin-top: 18px;
+    font-size: 25px;
+}
+
+.botonAccederTema{
+
+    width: 130px;
+    height: 43px;
+    background: rgba(248, 203, 138, 1);
+    opacity: 1;
+    
+    
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    transition: 0.5s;
+}
+
+.animarBoton:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: calc(-1 * var(--bs-gutter-y)); 
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.containerTema{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.botonVolverForo{
+    width: 130px;
+        height: 43px;
+        background: rgba(248, 203, 138, 1);
+       
+        font-size: 20px;
+        border-radius: 10px;
+}
+.cajaTemaInicial{
+    height: 150px;
+    background-color: #2c283d;
+    margin-top: 50px;
+    
+    
+    border-style:solid;
+    border-width: 0.001cm;
+    border-top: 0;
+    overflow: hidden;
+
+    border-top-left-radius: 10px;       
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+.cajaResponder{
+    
+    background-color: #2c283d;
+    margin-top: 50px;
+    
+    
+    padding-bottom: 80px;
+    border-style:solid;
+    border-width: 0.001cm;
+    border-top: 0;
+    overflow: hidden;
+    height: 64%;
+
+    border-top-left-radius: 10px;       
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+.escribirRespuesta{
+    margin: 25px;
+    margin-top: 0px;
+    width: -webkit-fill-available;
+    height: 150px;
+    background-color: #6f6b8488;
+    color: white !important;
+    
+}
+
+.botonResponder{
+    width: 130px;
+    height: 43px;
+    background: rgba(248, 203, 138, 1);
+   
+    
+    border-radius: 10px;
+    margin-right: 19px;
+    margin-bottom: 25px;
+}
+
+.cajaRespuetas{
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: 50px;
+
+    border-style:solid;
+    border-width: 0.001cm;
+    border-top: 0;
+    overflow: hidden;
+    height: 64%;
+
+    border-top-left-radius: 10px;       
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+.borderBotton{
+    border-style:solid;
+    border-width: 0.001cm;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 25px;
+    
+}
+
+.img{
+    border-radius: 50%;
+}
+
+.areaTexto{
+    
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ccc !important;
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0);
+    
+
+}
+.fuenteBlanca{
+    font-size: 30px;
+    color: #ccc !important;
+    
+}
+.fuenteAmarillaNormal{
+    font-size: 30px;
+    color: #F8CB8A !important;
+}
+
+.blanco{
+    color: #fff;
+}
+.fuenteAmarilla{
+    font-size: 30px;
+    color: #F8CB8A;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+.fuenteAmarillaPequeña{
+    font-size: 15px;
+    color: #F8CB8A;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+.labelComentario{
+    margin: 25px;
+    margin-bottom: 0px;;
+
+}
+.aemStyle{
+    background-color: #2C283D;
+    color: white;
+}
+
+
+.fotoTema{
+    margin-left: 113px;
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+  /* The Close Button */
+  .close {
+    color: rgba(248, 203, 138, 1);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .colTexto{
+
+  }
+
+  .marcar{
+      background: #dcdde1 !important;
+      color: #262626 !important;
+      border-radius: 5px;
+  }
+
+  @media (max-width: 700px) {
+      .botonAccederTema{
+        width: 98px;
+        height: 40px;
+      }
+      .fuente{
+          font-size: 23px;
+      }
+     
+  }
+
+.heartbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+svg {
+    cursor: pointer;
+    overflow: visible;
+    width: 60px;
+    margin: 20px;
+}
+
+svg #heart {
+    transform-origin: center;
+    animation: animateHeartOut .3s linear forwards;
+}
+
+svg #main-circ {
+    transform-origin: 29.5px 29.5px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox:checked+label svg #heart {
+    transform: scale(0.2);
+    fill: #E2264D;
+    animation: animateHeart .3s linear forwards .25s;
+}
+
+.checkbox:checked+label svg #main-circ {
+    transition: all 2s;
+    animation: animateCircle .3s linear forwards;
+    opacity: 1;
+}
+
+.checkbox:checked+label svg #heartgroup1 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup1 #heart1 {
+    transform: scale(0) translate(0, -30px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup1 #heart2 {
+    transform: scale(0) translate(10px, -50px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup2 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup2 #heart1 {
+    transform: scale(0) translate(30px, -15px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup2 #heart2 {
+    transform: scale(0) translate(60px, -15px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup3 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup3 #heart1 {
+    transform: scale(0) translate(30px, 0px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup3 #heart2 {
+    transform: scale(0) translate(60px, 10px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup4 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup4 #heart1 {
+    transform: scale(0) translate(30px, 15px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup4 #heart2 {
+    transform: scale(0) translate(40px, 50px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup5 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup5 #heart1 {
+    transform: scale(0) translate(-10px, 20px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup5 #heart2 {
+    transform: scale(0) translate(-60px, 30px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup6 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup6 #heart1 {
+    transform: scale(0) translate(-30px, 0px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup6 #heart2 {
+    transform: scale(0) translate(-60px, -5px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup7 {
+    opacity: 1;
+    transition: .1s all .3s;
+}
+
+.checkbox:checked+label svg #heartgroup7 #heart1 {
+    transform: scale(0) translate(-30px, -15px);
+    transform-origin: 0 0 0;
+    transition: .5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup7 #heart2 {
+    transform: scale(0) translate(-55px, -30px);
+    transform-origin: 0 0 0;
+    transition: 1.5s transform .3s;
+}
+
+.checkbox:checked+label svg #heartgroup2 {
+    opacity: 1;
+    transition: .1s opacity .3s;
+}
+
+.checkbox:checked+label svg #heartgroup3 {
+    opacity: 1;
+    transition: .1s opacity .3s;
+}
+
+.checkbox:checked+label svg #heartgroup4 {
+    opacity: 1;
+    transition: .1s opacity .3s;
+}
+
+.checkbox:checked+label svg #heartgroup5 {
+    opacity: 1;
+    transition: .1s opacity .3s;
+}
+
+.checkbox:checked+label svg #heartgroup6 {
+    opacity: 1;
+    transition: .1s opacity .3s;
+}
+
+.checkbox:checked+label svg #heartgroup7 {
+    opacity: 1;
+    transition: .1s opacity .3s;
+}
+
+@keyframes animateCircle {
+    40% {
+        transform: scale(10);
+        opacity: 1;
+        fill: #DD4688;
+    }
+    55% {
+        transform: scale(11);
+        opacity: 1;
+        fill: #D46ABF;
+    }
+    65% {
+        transform: scale(12);
+        opacity: 1;
+        fill: #CC8EF5;
+    }
+    75% {
+        transform: scale(13);
+        opacity: 1;
+        fill: transparent;
+        stroke: #CC8EF5;
+        stroke-width: .5;
+    }
+    85% {
+        transform: scale(17);
+        opacity: 1;
+        fill: transparent;
+        stroke: #CC8EF5;
+        stroke-width: .2;
+    }
+    95% {
+        transform: scale(18);
+        opacity: 1;
+        fill: transparent;
+        stroke: #CC8EF5;
+        stroke-width: .1;
+    }
+    100% {
+        transform: scale(19);
+        opacity: 1;
+        fill: transparent;
+        stroke: #CC8EF5;
+        stroke-width: 0;
+    }
+}
+
+@keyframes animateHeart {
+    0% {
+        transform: scale(0.2);
+    }
+    40% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
